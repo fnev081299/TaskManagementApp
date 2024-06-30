@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\franc\\Documents\\Work\\Projects\\Interview\\TaskListAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AAFF1D5C-98FD-475A-A807-9359F7CC4C0D}|TaskListAPI\\TaskListAPI.csproj|c:\\users\\franc\\documents\\work\\projects\\interview\\tasklistapi\\tasklistapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAFF1D5C-98FD-475A-A807-9359F7CC4C0D}|TaskListAPI\\TaskListAPI.csproj|solutionrelative:tasklistapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAFF1D5C-98FD-475A-A807-9359F7CC4C0D}|TaskListAPI\\TaskListAPI.csproj|c:\\users\\franc\\documents\\work\\projects\\interview\\tasklistapi\\tasklistapi\\controllers\\databasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAFF1D5C-98FD-475A-A807-9359F7CC4C0D}|TaskListAPI\\TaskListAPI.csproj|solutionrelative:tasklistapi\\controllers\\databasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DatabaseController.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\Documents\\Work\\Projects\\Interview\\TaskListAPI\\TaskListAPI\\Controllers\\DatabaseController.cs",
+              "RelativeDocumentMoniker": "TaskListAPI\\Controllers\\DatabaseController.cs",
+              "ToolTip": "C:\\Users\\franc\\Documents\\Work\\Projects\\Interview\\TaskListAPI\\TaskListAPI\\Controllers\\DatabaseController.cs",
+              "RelativeToolTip": "TaskListAPI\\Controllers\\DatabaseController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T21:34:00.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\Documents\\Work\\Projects\\Interview\\TaskListAPI\\TaskListAPI\\Program.cs",
+              "RelativeDocumentMoniker": "TaskListAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\franc\\Documents\\Work\\Projects\\Interview\\TaskListAPI\\TaskListAPI\\Program.cs",
+              "RelativeToolTip": "TaskListAPI\\Program.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAEUAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T21:10:39.238Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "Hash": "YhPUzoVDWeWxdysQOYQNKYsieQpFn5HE7uzuS/qbZ+s=",
+  "Source": "TaskListAPI",
+  "BasePath": "_content/TaskListAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "TaskListAPI\\wwwroot",
+      "Source": "TaskListAPI",
+      "ContentRoot": "C:\\Users\\franc\\Documents\\Work\\Projects\\Interview\\TaskListAPI\\TaskListAPI\\wwwroot\\",
+      "BasePath": "_content/TaskListAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\franc\\Documents\\Work\\Projects\\Interview\\TaskListAPI\\TaskListAPI\\wwwroot\\profile_pictures\\2_profile picture new.jpg",
+      "SourceId": "TaskListAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\franc\\Documents\\Work\\Projects\\Interview\\TaskListAPI\\TaskListAPI\\wwwroot\\",
+      "BasePath": "_content/TaskListAPI",
+      "RelativePath": "profile_pictures/2_profile picture new.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\profile_pictures\\2_profile picture new.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\franc\\Documents\\Work\\Projects\\Interview\\TaskListAPI\\TaskListAPI\\wwwroot\\profile_pictures\\7_profile picture new.jpg",
+      "SourceId": "TaskListAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\franc\\Documents\\Work\\Projects\\Interview\\TaskListAPI\\TaskListAPI\\wwwroot\\",
+      "BasePath": "_content/TaskListAPI",
+      "RelativePath": "profile_pictures/7_profile picture new.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\profile_pictures\\7_profile picture new.jpg"
+    }
+  ]
+}
