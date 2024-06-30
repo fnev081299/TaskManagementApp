@@ -1,0 +1,82 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: 100vh;
+    background: url('../images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Background overlay to improve text readability */
+.professional-background {
+    position: fixed;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+    background-color: rgba(255, 255, 255, 0.164);
+}
+
+.professional-background.left {
+    left: 0;
+}
+
+.professional-background.right {
+    right: 0;
+}
+
+/* Container styles */
+.content-container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1;
+}
+
+/* Task counters */
+.task-counters {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Status key indicators */
+.status-key {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.status-key.pending {
+    background-color: #ffc107;
+}
+
+.status-key.in-progress {
+    background-color: #007bff;
+}
+
+.status-key.completed {
+    background-color: #28a745;
+}
+
+/* Accessibility */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}

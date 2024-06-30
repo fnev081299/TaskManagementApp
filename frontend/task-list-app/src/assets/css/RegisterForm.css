@@ -1,0 +1,38 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.register-title {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form-field {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.form-button {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.success-message {
+  color: green;
+}
+
+.error-message {
+  color: red;
+}

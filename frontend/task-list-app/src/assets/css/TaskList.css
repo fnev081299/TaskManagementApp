@@ -1,0 +1,91 @@
+/* Task list */
+.task-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.task-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.task-info .task-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.task-info .task-description {
+    font-size: 0.9rem;
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.task-done {
+    background-color: #d4edda;
+    border-left: 4px solid #28a745;
+}
+
+.task-not-done {
+    background-color: #fff3cd;
+    border-left: 4px solid #ffc107;
+}
+
+/* Form control for inline editing */
+.form-control {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+/* Task actions */
+.task-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.btn {
+    background: none;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #f0f0f0;
+}
+
+.btn-toggle {
+    background-color: #cce5ff;
+    color: #007bff;
+}
+
+.btn-toggle:hover {
+    background-color: #b3d7ff;
+}
+
+.btn-delete {
+    color: #ff0000;
+}
+
+/* Hover effect for clickable elements */
+.task-title:hover,
+.task-description:hover,
+.btn:hover {
+    text-decoration: underline;
+}
