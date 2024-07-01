@@ -1,78 +1,72 @@
 # Task Management App
 
 ## Overview
-This is a Task Management Application built with a React frontend and an ASP.NET Core backend. It allows users to register, log in, and manage their tasks with various statuses.
+This application is a Task Management App that allows users to register, log in, add tasks, update task status, and delete tasks.
 
-## Running the Application
+## Prerequisites
+- Node.js (https://nodejs.org/)
+- .NET SDK (https://dotnet.microsoft.com/download)
 
-### Running the Backend
+## Setup and Run
 
-To run the backend API server:
+### Running the Application
+
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/yourusername/TaskManagementApp.git
+    ```
+
+2. Navigate to the project directory:
+    ```sh
+    cd TaskManagementApp
+    ```
+
+3. Run the PowerShell script to start both backend and frontend:
+    ```sh
+    ./start-app.ps1
+    ```
+
+### Running Backend Alone
 
 1. Navigate to the backend directory:
-    ```bash
-    cd backend/TaskListAPI
-    ```
-1.1 Open the sln and run with ctrl + f5 or
-    ```bash
+    ```sh
     cd backend/TaskListAPI/TaskListAPI
     ```
 
-2. Restore the dependencies and run the backend server:
-    ```bash
+2. Restore .NET dependencies and run the backend:
+    ```sh
     dotnet restore
     dotnet run
     ```
 
 The backend server should start running at `https://localhost:7244` or `http://localhost:5083`.
-
-### Running the Frontend
-
-To run the frontend React application:
+### Running Frontend Alone
 
 1. Navigate to the frontend directory:
-    ```bash
+    ```sh
     cd frontend/task-list-app
     ```
 
-2. Install the dependencies:
-    ```bash
+2. Install Node.js dependencies and start the frontend:
+    ```sh
     npm install
-    ```
-
-3. Start the frontend application:
-    ```bash
     npm start
     ```
 
-The frontend application should start running at `http://localhost:3000`.
+## Using the Application
 
----
-### Running Both Frontend and Backend Using PowerShell Script
+### Register and Login
+- Click on "Register" to create a new account.
+- Click on "Login" to log into your account.
 
-To run both the frontend and backend together using the provided PowerShell script:
+### Add a Task
+- Click on "Add New Task" to create a new task.
 
-1. Navigate to the root directory of the project where the `start-app.ps1` script is located.
+### Update Task Status
+- Click on a task to edit its details and update its status.
 
-2. Set the execution policy to allow the script to run (if not already set):
-    ```powershell
-    Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-    ```
-
-3. Run the PowerShell script:
-    ```powershell
-    ./start-app.ps1
-    ```
-
-The script will start both the backend and frontend applications. You can stop both applications by pressing `Enter` in the PowerShell window.
-
-## Features
-
-- **User Registration and Login:** Users can register with a username, email, and password. They can then log in with their credentials.
-- **Profile Management:** Users can upload, update, and delete their profile picture.
-- **Task Management:** Users can create, update, and delete tasks. Tasks can be set to different statuses: Pending, In Progress, and Completed.
-
-## Additional Information
+### Delete a Task
+- Click on the delete button next to a task to remove it.
 
 - **Test User Credentials:**
     - Username: `test_user`
@@ -81,3 +75,4 @@ The script will start both the backend and frontend applications. You can stop b
 - **Technologies Used:**
     - **Frontend:** React, Material-UI, Bootstrap
     - **Backend:** ASP.NET Core, Entity Framework Core, SQLite
+
