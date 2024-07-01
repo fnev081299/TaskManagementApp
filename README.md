@@ -64,7 +64,7 @@ To run both the frontend and backend together using the provided PowerShell scri
 
 The script will start both the backend and frontend applications. You can stop both applications by pressing `Enter` in the PowerShell window.
 
-### Running Both Frontend and Backend Using Bash Script
+### Running Both Frontend and Backend Using Bash Script (macOS)
 
 To run both the frontend and backend together using the provided Bash script:
 
@@ -75,7 +75,12 @@ To run both the frontend and backend together using the provided Bash script:
     chmod +x start-app.sh
     ```
 
-3. Run the Bash script:
+3. If you encounter a permission denied error for `react-scripts`, run:
+    ```bash
+    chmod +x frontend/task-list-app/node_modules/.bin/*
+    ```
+
+4. Run the Bash script:
     ```bash
     ./start-app.sh
     ```
