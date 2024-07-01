@@ -89,3 +89,9 @@ coverage/
 .apt_generated/
 .factorypath/
 .etc/
+
+# Ignore TypeScript build info files
+*.tsbuildinfo
+
+# Ignore ESLint cache
+.eslintcache
