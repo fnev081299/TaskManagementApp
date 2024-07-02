@@ -67,7 +67,11 @@ const App: React.FC = () => {
         }
     };
 
-    const countTasksByStatus = (status: string) => tasks.filter(task => task.status === status).length;
+    const countTasksByStatus = (status: string) => {
+        const count = tasks.filter(task => task.status === status).length;
+        console.log(`Counting tasks with status '${status}': ${count}`);
+        return count;
+    };
 
     const handleRegister = (user: User) => {
         setUser(user);
@@ -101,10 +105,10 @@ const App: React.FC = () => {
         <Box className="task-counters" sx={{ marginTop: 2, padding: 2, backgroundColor: '#f8f9fa', borderRadius: 2 }}>
             <Typography variant="h5" gutterBottom>Task Status</Typography>
             <Box display="flex" justifyContent="center">
-                {['Pending', 'In Progress', 'Completed'].map(status => (
+                {['Pending', 'InProgress', 'Completed'].map(status => (
                     <Box key={status} display="flex" alignItems="center" mx={2}>
-                        <span className={`status-key ${status.toLowerCase().replace(' ', '-')}`}></span>
-                        <Typography variant="body1" sx={{ marginLeft: 1 }}>{status}: {countTasksByStatus(status)}</Typography>
+                        <span className={`status-key ${status.toLowerCase()}`}></span>
+                        <Typography variant="body1" sx={{ marginLeft: 1 }}>{status.replace(/([A-Z])/g, ' $1')}: {countTasksByStatus(status)}</Typography>
                     </Box>
                 ))}
             </Box>

@@ -1,7 +1,7 @@
 export interface User {
-  id: number; // Add this line
+  id: number;
   username: string;
   email: string;
   passwordHash: string;
-  profilePictureFileName?: string; // Optional if not required by backend
+  profilePictureFileName?: string;
 }

@@ -6,7 +6,7 @@ import '../assets/css/RegisterForm.css';
 
 interface RegisterFormProps {
   onRegister: (user: User) => void;
-  onClose: () => void; // Added onClose prop
+  onClose: () => void;
 }
 
 const RegisterForm: React.FC<RegisterFormProps> = ({ onRegister, onClose }) => {
