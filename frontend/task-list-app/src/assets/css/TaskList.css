@@ -88,3 +88,24 @@
 .btn:hover {
     text-decoration: underline;
 }
+
+/* Status indicators */
+.status-key {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.pending {
+    background-color: #ffc107;
+}
+
+.in-progress {
+    background-color: #007bff;
+}
+
+.completed {
+    background-color: #28a745;
+}
