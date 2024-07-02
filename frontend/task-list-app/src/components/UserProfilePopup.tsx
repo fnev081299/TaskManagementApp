@@ -38,7 +38,7 @@ const UserProfilePopup: React.FC<UserProfilePopupProps> = ({ user, open, onClose
     if (selectedFile && user.id) {
       try {
         await userService.updateProfilePicture(user.id, selectedFile);
-        onUpdateProfilePicture(); // Notify parent component of the update
+        onUpdateProfilePicture();
         setSelectedFile(null);
         onClose();
       } catch (error) {
